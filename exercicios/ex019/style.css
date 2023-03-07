@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#titulo-principal {
+    background-color: black;
+    color: darkgreen;
+    text-align: center;
+}
+
+body {
+    font: normal normal 1em 'Times New Roman';
+}
+
+h1 {
+    color: darkgreen;
+}
+
+.topico {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.texto {
+        text-align: justify;
+}

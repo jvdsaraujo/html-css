@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Crack';
+    src: url(Crackvetica.ttf) format(truetype);
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Love';
+    src: url(Lovelyfont.otf) format(opentype), url(Lovelyfont.ttf) format(truetype);
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Crack';
+    font-size: 4.5em;
+}
+p {
+    font-family: 'Love';
+    font-size: 3em;
+}

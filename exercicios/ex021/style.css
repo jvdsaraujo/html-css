@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(3, 121, 3);
+    font: normal normal 1em 'Arial';
+}
+
+h1 {
+    color: rgb(87, 17, 122);
+}
+
+#principal:hover {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: rgb(1, 184, 184);
+    font-weight: bold;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a.link:hover {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+a.link::before {
+    content: '>>';
+    font-weight: lighter;
+}
+
+a.link::after {
+    content:'<<';
+    font-weight: lighter;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mais exercícios de formatação</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+        <h2>Código fonte</h2>
+            <p>O comando <code>document.getElementById("teste")</code> é escrito em linguagem JavaScript.</p>
+        <pre>
+            <code>
+num = int(imput('Digite um número'))
+if num % 2 == 0:
+    print (f'O {num} é PAR')
+else:
+    print (f'O {num} é IMPAR')
+print ('Fim do programa')<!--Utilizando o comando shift+tab, eu cheguei o código pra "perto" da borda esquerda do navegador para que os espaços em brancos fossem completos. Para que o código fique da maneira que estava antes, basta digitado com identação nas linhas seguintes as tags code e pre.-->
+            </code>
+        </pre>
+    <h2>Citações simples e citações completas</h2>
+        <p>Para utilizar citações basta apenas usar a tag q, como diria o Jake <q>Alerta de ciclone rapaziada, todos os folgados para casa imediatamente!</q>.</p>
+        <p>Para utilizar citações completas, podemos utilizar a tag blockquote, para que existe uma quebra de patagrafo numa citação maior, tal qual o generico ipsum lorem dizia: <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quas ut aliquam dolor sit. Nostrum ab, unde, repudiandae sunt error perspiciatis, atque beatae aspernatur fugiat sed velit aperiam fuga asperiores."</blockquote>
+        Na blockquote ainda existe o mecanismo de você colocar o elemento cite dentro dela, e linkar o endereço de onde você pegou a citação. Pros mecanismos de busca do google mostrarem o seu site se alguem estiver procurando o assunto que foi citado por você ali, ou procurarem sobre o livro também.</p>
+    <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> para criar sites e conseguir o meu primeiro emprego.</p>
+    <h2>Texto invertido é uma sacanagem ta</h2>
+        <p><bdo dir="rtl">Estou quase escrevendo em coreano, da direita pra esquerda kakakakakkaka</bdo></p>
+
+        <ol type="1">
+           <li>Elefante</li>
+           <ul type="disc">
+            <li>Grande</li>
+            <li>Pequeno</li>
+            <li>Médio</li>
+           </ul>
+           <li>Farol</li>
+           <li>Grade</li>
+        </ol> 
+
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language, linguagem de marcação de hipertexto, blablabla</dd>
+
+            <dt>CSS</dt>
+            <dd>Cascading Scale Sheets, basicamente o estilo do texto.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação front end para dar interatividade nos sites</dd>
+        </dl>
+        
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Testes Finitos IAV</title>
+</head>
+<body>
+    <h1>Testes</h1>
+        <h2>Testes com Imagens Flexiveis</h2>
+            <p>Abaixo poderemos ver um exemplo de imagem flexível:</p>
+            <picture>
+                <source media="(max-width:750px)" srcset="foto-p.png" type="image/png">
+                <source media="(max-width:1050px)" srcset="foto-m.png" type="image/png">
+                <img src="foto-g.png" alt="Imagem flexível funcionando">
+            </picture>
+        <h2>Teste com audios</h2>
+            <p>Abaixo apresentarei um audio funcionando perfeitamente no navegador:</p>
+            <audio src="happy-mistake.mp3" preload="auto" controls></audio><!--Existem ainda o parametro autoplay e loop, porém não me interessa usar para esse exemplo-->
+        <h2>Teste com vídeos de domínio próprio</h2>
+            <video src="meu-video.mp4" width="550px" controls></video> <br><!--Antes do parametro controls, ainda existe o parametro thumb, onde eu colocaria uma imagem para carregar antes do usuario dar play. E a autoplay, mas essa não me interessa-->
+            <video src="meu-video.ogv" width="550px" controls></video><br>
+            <video src="meu-video.webm" width="550px" controls></video><br>
+            <video src="meu-video.m4v" width="550px" controls></video>
+        <h2>Teste com vídeo incorporado do YT</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E01LDVj0Rpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+    
+</body>
+</html>
