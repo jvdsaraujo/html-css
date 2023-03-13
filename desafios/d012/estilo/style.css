@@ -12,51 +12,65 @@
 
 }
 
+html, body {
+    background-color: darkgray;
+    min-width: 100vh;
+
+
+}
 
 header {
     background-color: var(--cor1);
-    min-height: 160px;
-    max-height: 300px;
-    height: 310px;
-    margin-bottom: 20px;
-}
-
-h1 {
-    font: normal 800 8vw var(--fonte0);
-    min-width: 400px;
-    text-align: center;
     color: var(--cor0);
-    padding: 35px;
+    text-align: center;
 }
 
-a {
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--cor0)
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+
 }
 
 header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: var(--cor0);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+section.normal {
+    background-color: var(--cor0);
+    color: var(--cor1);
+}
+
+section.dois, section.quatro {
+    background-color: rgb(88, 88, 88);
+    color: var(--cor0);
+}
+
+section.dois > p, section.quatro > p {
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 400px;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: var(--cor0);
     text-align: center;
-    color: var(--cor0);
-    font: normal normal 1.2em var(--fonte0);
-    padding: 20px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-}
-
-section#dois {
-    background: var(--cor0) url(../imagens/background001.jpg) center no-repeat fixed;
-    background-size: cover;
-    color: var(--cor0);
-}
-
-section#quatro {
-    background: var(--cor1) url(../imagens/background002.jpg) center no-repeat fixed;
-    background-size: cover;
-    color: var(--cor0);
-}
-
-p {
-     font: normal normal 2vw var(--fonte0);
-     padding: 10px;
+    padding: 5px;
 }
