@@ -66,6 +66,7 @@ section.dois, section.quatro {
 section.dois > p, section.quatro > p {
     background-color: rgba(0, 0, 0, 0.267);
     width: 400px;
+    padding: 10px;
 }
 
 footer {
