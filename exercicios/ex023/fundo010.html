@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fora {
+            position: relative;
+            height: 400px;
+            width: 800px;
+            background-color: purple;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+        }
+
+        #dentro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro"></div>
+    </div>
+    
+</body>
+</html>
