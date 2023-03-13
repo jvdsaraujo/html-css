@@ -29,6 +29,12 @@ h1 {
     padding: 35px;
 }
 
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor0)
+}
+
 header > p {
     text-align: center;
     color: var(--cor0);
