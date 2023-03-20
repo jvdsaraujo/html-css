@@ -25,10 +25,23 @@
             padding: 10px;
         }
 
+        col.amarelo {
+            background-color: yellow;
+        }
+
+        col.verde {
+            background-color: green;
+        }
+
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col>
+            <col class="amarelo">
+            <col class="verde" span="3">
+        </colgroup>
         <caption>Filmes Favoritos</caption>
         <thead>
             <th scope="col">Grupo</th>
